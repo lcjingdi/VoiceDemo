@@ -10,13 +10,14 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
+        self.playAudio()
     }
     
     
@@ -24,6 +25,8 @@ class ViewController: UIViewController {
         let url = Bundle.main.url(forResource: "good", withExtension: "mp3")
         AudioManager().playSoundEffect(url: url!, shake: false)
     }
-    
+    func playAudio() {
+        print(AudioManager.playMusic(filename: "xxoo.mp3"))
+    }
 }
 

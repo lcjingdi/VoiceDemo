@@ -15,8 +15,9 @@
 		1FB4C1731DC1164D00DCD12F /* bad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4C1721DC1164D00DCD12F /* bad.mp3 */; };
 		1FB4C1751DC1165400DCD12F /* good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4C1741DC1165400DCD12F /* good.mp3 */; };
 		1FB4C1771DC1165A00DCD12F /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4C1761DC1165A00DCD12F /* ding.mp3 */; };
-		1FB4C1791DC1166000DCD12F /* 请再读一次.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4C1781DC1166000DCD12F /* 请再读一次.mp3 */; };
+		1FB4C1791DC1166000DCD12F /* again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4C1781DC1166000DCD12F /* again.mp3 */; };
 		1FB4C17B1DC1176300DCD12F /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4C17A1DC1176300DCD12F /* AudioManager.swift */; };
+		1FB4C17D1DC1301400DCD12F /* xxoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4C17C1DC1301400DCD12F /* xxoo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		1FB4C1721DC1164D00DCD12F /* bad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bad.mp3; sourceTree = "<group>"; };
 		1FB4C1741DC1165400DCD12F /* good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = good.mp3; sourceTree = "<group>"; };
 		1FB4C1761DC1165A00DCD12F /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
-		1FB4C1781DC1166000DCD12F /* 请再读一次.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "请再读一次.mp3"; sourceTree = "<group>"; };
+		1FB4C1781DC1166000DCD12F /* again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = again.mp3; sourceTree = "<group>"; };
 		1FB4C17A1DC1176300DCD12F /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		1FB4C17C1DC1301400DCD12F /* xxoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xxoo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,8 @@
 		1FB4C1711DC1141400DCD12F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				1FB4C1781DC1166000DCD12F /* 请再读一次.mp3 */,
+				1FB4C17C1DC1301400DCD12F /* xxoo.mp3 */,
+				1FB4C1781DC1166000DCD12F /* again.mp3 */,
 				1FB4C1761DC1165A00DCD12F /* ding.mp3 */,
 				1FB4C1741DC1165400DCD12F /* good.mp3 */,
 				1FB4C1721DC1164D00DCD12F /* bad.mp3 */,
@@ -148,8 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB4C1731DC1164D00DCD12F /* bad.mp3 in Resources */,
+				1FB4C17D1DC1301400DCD12F /* xxoo.mp3 in Resources */,
 				1FB4C1751DC1165400DCD12F /* good.mp3 in Resources */,
-				1FB4C1791DC1166000DCD12F /* 请再读一次.mp3 in Resources */,
+				1FB4C1791DC1166000DCD12F /* again.mp3 in Resources */,
 				1FB4C1771DC1165A00DCD12F /* ding.mp3 in Resources */,
 				1FB4C16A1DC1133B00DCD12F /* LaunchScreen.storyboard in Resources */,
 				1FB4C1671DC1133B00DCD12F /* Assets.xcassets in Resources */,
